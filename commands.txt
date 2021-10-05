@@ -1,0 +1,11 @@
+criacao com template
+serverless create --template aws-nodejs-typescript --path nome_da_aplicacao
+
+criar credencial aws na maquina
+serverless config credentials --provider aws --key=XXXXXX --secret=XXXXXXX
+
+verificar se ja existe uma credencial configurada. arquivo credentials
+cd ~/.aws
+
+para sobrescrever a  credencial
+serverless config credentials --provider aws --key=XXXXXX --secret=XXXXXXX -o
